@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 # Connect to MongoDB
-client = MongoClient('mongodb://ras:ras_password@172.29.27.114:27017/')
+client = MongoClient('')
 db = client['btc'] 
 collection = db['bitcoin_transactions']  
 
