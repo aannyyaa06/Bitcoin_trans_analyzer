@@ -4,7 +4,7 @@ from logger import logger
 from config import db_name
 # Your MongoDB connection string
 # These details are to be updated in the config.py
-mongo_uri = f'mongodb://ras:ras_password@172.29.27.114:27017/'
+mongo_uri = f''
 
 def insert_transaction(json_data, _collection='bitcoin_transactions'):
     """
