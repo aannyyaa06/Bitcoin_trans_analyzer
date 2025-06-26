@@ -4,7 +4,7 @@ from logger import logger
 from config import db_name
 import bitcoin
 
-mongo_uri = f'mongodb://ras:ras_password@172.29.27.114:27017/'
+mongo_uri = f''
 def insert_bitcoin_transaction(tx_hex, _collection='bitcoin_transactions'):
     """
     Inserts a single Bitcoin transaction into the db
