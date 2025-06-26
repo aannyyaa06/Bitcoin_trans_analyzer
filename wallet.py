@@ -7,7 +7,7 @@ from parser_utils import ad_to_dict
 from logger import logger
 
 # Replace with your Bitcoin node configuration
-BITCOIN_RPC_URL = 'http://your_bitcoin_node_rpc_url'
+BITCOIN_RPC_URL = ''
 BITCOIN_RPC_USER = 'your_rpc_user'
 BITCOIN_RPC_PASSWORD = 'your_rpc_password'
 
